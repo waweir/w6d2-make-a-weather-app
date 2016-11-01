@@ -7,7 +7,7 @@ import Settings from '../components/Settings'
 
 ReactDOM.render(
     <Router history={browserHistory}>
-        <Route path="/" component={Current} />
+        <Route path="" component={Current} />
         <Route path="/forecast" component={Forecast} />
         <Route path="/settings" component={Settings} />
     </Router>
